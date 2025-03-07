@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Modernizr -->
+    <script src="static/js/modernizr.js"></script>
+    <!-- Open Sans from Google Webfonts -->
+    <link href="static/css/css.css" rel="stylesheet" type="text/css" />
+    <!-- Main styles file -->
+    <link rel="stylesheet" href="static/css/styles.css" />
+    <!-- Icons via Font Awesome -->
+    <link rel="stylesheet" href="static/css/font-awesome.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Birthday Website for babu</title>
+  </head>
+
+  <body class="color-scheme-neue">
+    <!-- Animated background -->
+    <canvas id="bg-canvas"></canvas>
+    <div
+      class="bg-img"
+      style="
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: url(https://cdn.jsdelivr.net/gh/MasterKeee/picture/love.jpg)
+          no-repeat center center;
+        background-size: cover;
+      "
+    ></div>
+    <!-- First screen -->
+    <div class="splash">
+      <div class="centered-unit">
+        <div class="container">
+          <!-- Main header -->
+          <h1>For us！</h1>
+          <!-- Sub header -->
+          <p class="lead">We have been together for:</p>
+
+          <!-- Countdown -->
+          <div class="countdown circled large">
+            <!-- Days -->
+            <div class="time days">
+              <div class="value">00</div>
+              <div class="unit">Days</div>
+            </div>
+            <!-- Hours -->
+            <div class="time hours">
+              <div class="value">00</div>
+              <div class="unit">Hours</div>
+            </div>
+            <!-- Minutes -->
+            <div class="time minutes">
+              <div class="value">00</div>
+              <div class="unit">Minutes</div>
+            </div>
+            <!-- Seconds -->
+            <div class="time seconds">
+              <div class="value">00</div>
+              <div class="unit">Seconds</div>
+            </div>
+          </div>
+          <!-- Countdown end -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Second screen -->
+    <div class="overlap">
+      <!-- Link "Scroll down to learn more" -->
+      <!-- <a href="" class="more"
+        >Scroll Down <i class="fa fa-chevron-down"></i> More</a
+      > -->
+
+      <!-- Detailed info -->
+      <div class="container few-words">
+        <div class="row">
+          <!-- First column -->
+          <div class="col col-heading">
+            <!-- Detailed info -->
+            <h2>Our Beautiful Story📚</h2>
+            <br />
+          </div>
+          <!-- First column end -->
+
+          <!-- Second column -->
+          <div class="col col-content">
+            <p>
+              📅&nbsp;2020.09.22 - I asked for the number in a class group, and
+              you also gave it to me 🤝
+              <br />
+              From that day, we started talking with each other.
+            </p>
+            <p>
+              📅&nbsp;2021.03.02 - The first day we met, hugged each other, and
+              also went on our first date together 🍬<br />
+            </p>
+            <p>📅&nbsp;2021.03.02 - Our first walk together 🌃<br /></p>
+            <p>📅&nbsp;2021.03.02 - Our first time holding hands 👫<br /></p>
+            <p>
+              📅&nbsp;2021.03.03 - The first time we visited the temple
+              together<br />
+            </p>
+            <p>
+              📅&nbsp;2021.10.21 - We went to Bangalore for college 😘<br />
+            </p>
+            <p>📅&nbsp;2021.11.02 - Our First Diwali together ❤️<br /></p>
+
+            <p>
+              📅&nbsp;2022.03.09 - Your first birthday that we celebrated
+              together 🎂🎈<br />
+            </p>
+            <p>
+              📅&nbsp;2025.03.09 - And today, it’s your 24th birthday, and
+              unfortunately, we cannot celebrate it together this time 🎂🎈
+              <br />
+              Hope we can celebrate your next birthday together.
+            </p>
+          </div>
+          <!-- Second column end -->
+        </div>
+      </div>
+      <!-- Detailed info block end -->
+
+      <div id="birthday-card" class="card-section">
+        <div class="happy-part">
+          <h3>Happy Birthday Baby ❤️</h3>
+
+          <p>
+            Happy Birthday to the love of my life, my best friend, and my
+            greatest adventure. Every moment spent with you is a reminder of how
+            lucky I am to have you by my side. I hope your day is as beautiful
+            and amazing as you are. I love you more than words can express,
+            today and always.
+          </p>
+
+          <button class="happy-btn">Hover the card &#8594;</button>
+        </div>
+        <div class="card">
+          <div class="outside">
+            <div class="front">
+              <p>Happy Birthday</p>
+              <div class="cake">
+                <div class="top-layer"></div>
+                <div class="middle-layer"></div>
+                <div class="bottom-layer"></div>
+                <div class="candle"></div>
+              </div>
+            </div>
+            <div class="back"></div>
+          </div>
+          <div class="inside">
+            <p class="inside-text">
+              Wishing you a very happy birthday filled with love and laughter
+            </p>
+            <h1>&#127873;</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="title">I Love You 💗</div>
+
+      <div class="cube">
+        <div class="outer-cube">
+          <div class="outer-top">
+            <img src="images/1st.jpeg" />
+          </div>
+          <div class="outer-bottom">
+            <img src="images/1st.jpeg" />
+          </div>
+          <div class="outer-front">
+            <img src="images/1st.jpeg" />
+          </div>
+          <div class="outer-back">
+            <img src="images/1st.jpeg" />
+          </div>
+          <div class="outer-left">
+            <img src="images/2nd.jpeg" />
+          </div>
+          <div class="outer-right">
+            <img src="images/3rd.jpeg" />
+          </div>
+        </div>
+        <!-- 内层立方体 -->
+        <div class="inner-cube">
+          <div class="inner-top">
+            <img src="images/1st.jpeg" />
+          </div>
+          <div class="inner-bottom">
+            <img src="images/2nd.jpeg" />
+          </div>
+          <div class="inner-front">
+            <img src="images/3rd.jpeg" />
+          </div>
+          <div class="inner-back">
+            <img src="images/1st.jpeg" />
+          </div>
+          <div class="inner-left">
+            <img src="images/2nd.jpeg" />
+          </div>
+          <div class="inner-right">
+            <img src="images/3rd.jpeg" />
+          </div>
+        </div>
+      </div>
+      <!-- <div>
+        <div class="message">
+          <div class="tip">
+          
+          </div>
+        </div>
+      </div> -->
+
+      <div class="poem">
+        <h3 class="title hellotitle">
+          Maine Tumhare Liye Pyar Likha Hua Kuch cheeje
+        </h3>
+
+        <div class="poem-images">
+          <img class="poemimages" src="images/p1.jpeg" alt="" srcset="" />
+          <img class="poemimages" src="images/p2.jpeg" alt="" srcset="" />
+        </div>
+      </div>
+
+      <div class="card-sections">
+        <div class="happy-part">
+          <img class="ankimg" src="images/1st.jpeg" alt="" />
+        </div>
+        <div class="happy-part">
+          <p>
+            तेरी मुस्कान में छुपा है जहाँ सारा, <br />
+            तू है मेरी ज़िन्दगी का सबसे प्यारा। <br />
+            तेरी हर अदा में है एक ख़ास बात, <br />
+            हैप्पी बर्थडे मेरी जान, तू है मेरी राहों की रात। <br />
+            तेरे बिना ये सफर अधूरा सा लगे, <br />
+            तेरे साथ तो हर पल भी पूरा सा लगे।
+          </p>
+
+          <button class="happy-btn">
+            <a class="birthdaydekho" href="#birthday-card"
+              >Birthday Card Dekho</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <div class="container" style="text-align: center">
+          Designed and Developed by your babu 💗
+        </div>
+      </div>
+      <!-- Footer end -->
+    </div>
+
+    <div id="copy">
+      <p class="text-center text-white text-sm">
+        <!-- OG Creator -->
+        <!-- <a href="https://www.instagram.com/aoudumber.dev/reels/#"
+          >@aoudumber.dev</a
+        > -->
+      </p>
+    </div>
+
+    <!-- JavaScripts -->
+
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/countdown.js"></script>
+    <script src="static/js/bezierCanvas.js"></script>
+    <script src="static/js/notifyMe.js"></script>
+
+    <script type="text/javascript">
+      $().ready(function () {
+        // Activate countdownTimer plugin on a '.countdown' element
+        $(".countdown").countdownTimer({
+          // Set the end date for the countdown
+          endTime: new Date("September 22, 2020 00:00:00 UTC+0800"),
+        });
+
+        // Activate notifyMe plugin on a '#notifyMe' element
+        $("#notifyMe").notifyMe();
+
+        // Activate bezierCanvas plugin on a #bg-canvas element
+        $("#bg-canvas").bezierCanvas({
+          maxStyles: 3,
+          maxLines: 80,
+          strokeWidth: 0.5,
+          lineSpacing: 0.07,
+          spacingVariation: 0.07,
+          colorBase: { r: 100, g: 120, b: 200 },
+          colorVariation: { r: 50, g: 50, b: 50 },
+          globalAlpha: 0.4,
+          globalSpeed: 200,
+        });
+      });
+    </script>
+  </body>
+</html>
